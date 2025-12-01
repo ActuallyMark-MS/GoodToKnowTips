@@ -6,7 +6,9 @@ Sometimes the modern Settings → Apps view misses things, but the classic contr
 Press Win + R
 Type:
 
-~~~ appwiz.cpl
+~~~
+appwiz.cpl
+~~~
 
 Look for the old application.
 
