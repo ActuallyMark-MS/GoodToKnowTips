@@ -46,3 +46,25 @@ w32tm /query /status
 ~~~
 dism /online /Disable-Feature /FeatureName:Internet-Explorer-Optional-amd64
 ~~~
+
+# Reboot commands
+- To reboot OS, run this command
+
+~~~
+shutdown /r
+~~~
+
+- For a timed reboot, run it as its stated below
+- To do a timed reboot, a value need to be typed after **/t**
+- The timed value is typed in seconds
+- In the example, OS will reboot in 1 hour
+
+~~~
+shutdown /r /t 3600
+~~~
+
+- To cancel a timed reboot run this command
+
+~~~
+shutdown /a
+~~~
