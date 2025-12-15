@@ -38,3 +38,11 @@ Check NTP status by using this command:
 ~~~
 w32tm /query /status
 ~~~
+
+# Uninstall Internet Explorer
+- To uninstall Internet Explorer run the following command
+- *Be aware that finishing the uninstallation requires a system reboot*
+
+~~~
+dism /online /Disable-Feature /FeatureName:Internet-Explorer-Optional-
+~~~
