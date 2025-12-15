@@ -41,7 +41,7 @@ w32tm /query /status
 
 # Uninstall Internet Explorer
 - To uninstall Internet Explorer run the following command
-- *Be aware that finishing the uninstallation requires a system reboot*
+- **Be aware that finishing the uninstallation requires a system reboot**
 
 ~~~
 dism /online /Disable-Feature /FeatureName:Internet-Explorer-Optional-amd64
