@@ -44,5 +44,5 @@ w32tm /query /status
 - *Be aware that finishing the uninstallation requires a system reboot*
 
 ~~~
-dism /online /Disable-Feature /FeatureName:Internet-Explorer-Optional-
+dism /online /Disable-Feature /FeatureName:Internet-Explorer-Optional-amd64
 ~~~
