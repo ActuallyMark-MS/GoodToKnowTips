@@ -68,3 +68,11 @@ shutdown /r /t 3600
 ~~~
 shutdown /a
 ~~~
+
+# Re-establish domain trust (without leaving domain)
+- If a computer lost trust on domain, either logon with local account or remove network access and logon onto it with cached credentials
+- Run the following command in Powershell and reboot computer
+
+~~~
+Test-ComputerSecureChannel -Repair -Credential domain\AdminUser
+~~~
