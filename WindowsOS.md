@@ -76,3 +76,11 @@ shutdown /a
 ~~~
 Test-ComputerSecureChannel -Repair -Credential domain\AdminUser
 ~~~
+
+# Uninstall Microsoft 365 Copilot and Microsoft Copilot apps
+- Run the following commands to uninstall the apps:
+
+~~~
+Get-AppxPackage -AllUsers -Name "Microsoft.Copilot" | Remove-AppxPackage -AllUsers
+Get-AppxPackage -AllUsers -Name "Microsoft.MicrosoftOfficeHub*" | Remove-AppxPackage -AllUsers
+~~~
