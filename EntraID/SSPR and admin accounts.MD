@@ -6,3 +6,5 @@
 - [Microsoft - How to plan password scramble phishing resistant passwordless authentication](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-plan-password-scramble-phishing-resistant-passwordless-authentication)
 - [Microsoft - Disable SSPR for admins policy](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-sspr-policy?tabs=ms-powershell#administrator-reset-policy-differences)
 - [Microsoft - Remove password usage from Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-deploy-phishing-resistant-passwordless-authentication)
+
+test
